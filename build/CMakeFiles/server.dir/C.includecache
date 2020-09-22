@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tarang/server/server.c
+/home/pi/server/server.c
 stdio.h
 -
 stdlib.h

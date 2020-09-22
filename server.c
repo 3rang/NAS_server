@@ -16,9 +16,9 @@
 
 
 #define BUFF_SIZE 100
-#define PATH "/home/tarang/sambashare/myfile.txt"
+#define PATH "/home/pi/sambashare/myfile.txt"
 #define IP "0.0.0.0"
-#define PORT 1234
+#define PORT 3333
 
 
 int main (int argc,char **argv)
@@ -32,7 +32,7 @@ int main (int argc,char **argv)
     struct sockaddr_in udpSocket,udpBase;
     char buFFer[BUFF_SIZE];
     FILE *fp;
-    int sfd,len,nsfd,ret;
+    int sfd,len,ret;
     static int coUnt=0;
 
     fp=fopen(PATH,"w");
